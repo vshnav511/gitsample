@@ -16,7 +16,7 @@ namespace GitSampleProject.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-
+            ViewBag.Message = "I've updated the description";
             return View();
         }
 

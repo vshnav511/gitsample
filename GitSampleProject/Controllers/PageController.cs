@@ -8,6 +8,7 @@ namespace GitSampleProject.Controllers
 {
     public class PageController : Controller
     {
+        // I've changed the name
         // GET: Page
         public ActionResult Index()
         {

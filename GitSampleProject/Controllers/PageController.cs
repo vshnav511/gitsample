@@ -12,6 +12,7 @@ namespace GitSampleProject.Controllers
         // GET: Page
         public ActionResult Index()
         {
+            ViewBag.Text = "Test";
             return View();
         }
     }
